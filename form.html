@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire 1</title>
+    <style>
+        table,tr,th,td{
+            border: solid 1px black;
+            border-collapse: collapse;
+        }
+        form{
+            background-color: #fcede7;
+        }
+        *{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="post">
+        <table>
+            <tr>
+                <th colspan="2">Sign In</th>
+            </tr>
+            <tr>
+                <td><label for="mail">Adresse e-mail</label></td>
+                <td><input type="email" id="mail"></td>
+            </tr>
+            <tr>
+                <td><label for="mdp">password</label></td>
+                <td><input type="password" id="mdp"></td>
+            </tr>
+            <tr>
+               <td colspan="2">
+                <input type="submit" value="Sign In">
+               </td>
+            </tr>
+        </table>
+            
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulaire</title>
+    <style type="text/css">
+        main{
+            background: saddlebrown;
+            height: 110vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        *{
+            font-weight: bold;
+        }
+        section section{
+            width: 450px;
+            height: 100vh;
+            background: white;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            border-radius: 30px;
+            box-shadow: 10px 10px ;
+
+            animation-name: chgt-color;
+            animation-duration: 5s;
+            
+        }
+        @keyframes chgt-color{
+            from{background-color: white;}
+            to{background-color: darkred;}
+
+        }
+        label{
+            color: saddlebrown
+
+        }
+        input{
+            width: 400px;
+            height:40px;
+            border-radius: 10px;
+        }
+        form{
+            margin: auto;
+        }
+        img{
+            margin-left: 140px;
+        }
+         h1{
+            text-align: center;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <section>
+                <form>
+                     <img src="../../Downloads/cap1.jpeg" alt="Logo d'ism">
+                     <h1>Inscription</h1>
+                    <p>
+                        <label for="np">Nom et Prénom</label>
+                        <br>
+                        <input type="text" name="np" placeholder="Veuillez saisir votre Nom et Prénom">
+                        <br>
+                        <label for="phone">Téléphone</label>
+                        <br>
+                        <input type="tel" name="phone" placeholder="Veuillez saisir votre numéro de téléphone">
+                        <br>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="mail" name="email" placeholder="Veuillez saisir votre adresse e-mail">
+                        <br>
+                        <label for="mdp">Mot de passe</label>
+                        <br>
+                        <input type="password" name="mdp" placeholder="Veuillez saisir votre mot de passe">
+                        <br>
+                        <label for="mdp2">Confirmez votre mot de passe</label>
+                        <br>
+                        <input type="password" name="mdp2" placeholder="Veuillez confirmez votre mot de passe">
+                        <br>
+                        <br>
+                        <br>
+                        <input type="submit" value="Inscription">
+
+                    </p>
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

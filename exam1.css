@@ -1,0 +1,51 @@
+/*y'a un truc à mettre avant, enlever les paddigns, mettre les polices tous ces petits détails là*/
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+main{
+	height: 300vh;
+	width: 1341px;
+}
+header section:nth-child(1){
+	background-color: #ffc104;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+header section:nth-child(1) li{
+		padding-left: 10px;
+		margin-right: 10px;
+}
+header section:nth-child(2) li{
+		padding-left: 30px;
+}
+header section:nth-child(2){
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+
+}
+header{
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffc104;
+}
+header ul{
+	display: flex;
+	flex-direction: row;
+}
+/*Je fais le menu et sous-menu*/
+nav{
+	width: 50%;
+}
+nav li{
+	list-style-type:none ;
+}
+.submenu{
+	display: none;
+}

@@ -1,0 +1,26 @@
+main{
+	height: 300vh;
+	background: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main1{
+	height: 150vh;
+	background: blue;
+	margin: auto;
+
+}
+.main2{
+	height: 150vh;
+	background: green;
+}
+.whitebloc{
+	width: 550px;
+	height: 100vh;
+	background: white;
+}
+/*bloc du formulaire*
+ 
+
+
